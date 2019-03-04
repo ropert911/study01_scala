@@ -11,5 +11,12 @@ object Test {
 
     println(s"========使用Int的to方法 生成区间，to方法用中缀表达式")
     2 to 6 foreach { n => println(s"Hello ${n} bottles of beer") }
+
+    //定义类对象
+    class Student(var name: String, var id: Int)
+    val s = new Student("Raoul", 1)
+    println(s.name)
+    s.id = 1337
+    println(s.id)
   }
 }

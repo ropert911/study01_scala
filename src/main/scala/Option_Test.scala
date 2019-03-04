@@ -10,7 +10,7 @@ object Option_Test {
 
   def getCarInsuranceName(person: Option[Person], minAge: Int) =
     person.filter(_.getAge() >= minAge)
-      .flatMap(_.getCar())
+      .flatMap(_.car)
       .flatMap(_.getInsurance)
       .map(_.getName).getOrElse("Unknown")
 }
