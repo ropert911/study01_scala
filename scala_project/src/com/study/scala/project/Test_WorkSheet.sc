@@ -1,2 +1,1 @@
-val str="abc"
-println(str)
+println("Hello, Scala!")

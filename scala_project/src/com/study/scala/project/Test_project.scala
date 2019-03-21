@@ -5,6 +5,7 @@ package com.study.scala.project
   */
 object Test_project {
   def main(args: Array[String]): Unit ={
-    println("Hello")
+    println("This is scala")
+    System.out.println("This is java")
   }
 }
