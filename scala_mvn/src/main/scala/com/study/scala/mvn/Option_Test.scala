@@ -1,4 +1,6 @@
-import Model.Person
+package com.study.scala.mvn
+
+import com.study.scala.mvn.Model.Person
 
 /**
   * Created by xq on 2019/3/5.

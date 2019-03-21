@@ -1,4 +1,4 @@
-package Collection
+package com.study.scala.mvn.Collection
 
 /**
   * Created by xq on 2019/3/5.

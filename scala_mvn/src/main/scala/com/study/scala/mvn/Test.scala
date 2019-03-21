@@ -1,3 +1,5 @@
+package com.study.scala.mvn
+
 /**
   * Created by xq on 2019/3/5.
   */

@@ -1,4 +1,4 @@
-package Model
+package com.study.scala.mvn.Model
 
 /**
   * Created by xq on 2019/3/5.
