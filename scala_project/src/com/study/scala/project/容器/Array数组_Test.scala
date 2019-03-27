@@ -5,7 +5,7 @@ import scala.Array._
 /**
   * Created by xq on 2019/3/25.
   */
-object 数组 {
+object Array数组_Test {
   def main(args: Array[String]): Unit = {
     var z = new Array[String](3) //单维数据
     var myMatrix = Array[Int](3, 3) //多维数组
