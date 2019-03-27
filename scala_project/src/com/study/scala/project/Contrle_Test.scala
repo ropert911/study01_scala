@@ -36,9 +36,17 @@ object Contrle_Test {
       println("to step 2: " + a);
     }
 
+    for (a <- 0 to 10 by 2) {
+      println("to step 3: " + a);
+    }
+
     // for loop execution with a range
     for (a <- 0 until (10,2)) {
       println("util step 2: " + a);
+    }
+
+    for (a <- 0 until 10 by 2) {
+      println("util step 3: " + a);
     }
 
 
