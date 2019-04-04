@@ -57,7 +57,10 @@ object Map_Test {
     // def takeRight(n: Int): Map[A, B]      返回后 n 个元素
     // def takeWhile(p: ((A, B)) => Boolean): Map[A, B]      返回满足指定条件的元素
 
-    print("max:" + colors1.max + "min:" + colors1.min + "sum:" + colors1.sum + "size:" + colors1.size)
+    println("max:" + colors1.max)
+    println("min:" + colors1.min)
+//    println("sum:" + colors1.sum)
+    println("size:" + colors1.size)
 
     println(colors1.toSet) //转成 Set((red,#FF0000), (azure,#F0FFFF), (peru,#CD853F))
     println(colors1.toSeq)
