@@ -1,13 +1,12 @@
-package com.study.scala.project
+package com.study.scala.project.类对象
 
-/**
-  * Created by sk-qianxiao on 2019/3/24.
-  */
+//子类示例
 //后面的参数是构建函数，后面是继承类
-class Location(val xc: Int, val yc: Int, val zc: Int) extends Point(xc, yc) {
+class E2_子类_Location(val xc: Int, val yc: Int, val zc: Int) extends E1_类_Point(xc, yc) {
   var z: Int = zc
 
   def move(dx: Int, dy: Int, dz: Int) {
+//    super.move(dx, dy)
     x = x + dx
     y = y + dy
     z = z + dz

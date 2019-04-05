@@ -1,11 +1,11 @@
-package com.study.scala.project
+package com.study.scala.project.逻辑控制
 
 import scala.util.control.Breaks
 
 /**
   * Created by sk-qianxiao on 2019/3/21.
   */
-object Contrle_Test {
+object 循环_Test {
   def main(args: Array[String]): Unit = {
     // while loop execution
     var a = 10;

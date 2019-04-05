@@ -1,11 +1,11 @@
-package com.study.scala.project
+package com.study.scala.project.类对象
 
-class Point(xc: Int, yc: Int) {
+class E1_类_Point(xc: Int, yc: Int) {
   //没有访问限定就是public
   protected var x: Int = xc
   protected var y: Int = yc
 
-  //基它构建参数
+  //基它构造函数
   def this(xc: Int) {
     this(xc, 0) //调用主构造函数
   }
