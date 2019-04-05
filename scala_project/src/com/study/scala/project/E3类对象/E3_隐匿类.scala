@@ -1,4 +1,4 @@
-package com.study.scala.project.类对象
+package com.study.scala.project.E3类对象
 
 //示例：隐匿类使用
 object E3_隐匿类 {

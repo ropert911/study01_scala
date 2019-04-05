@@ -1,4 +1,4 @@
-package com.study.scala.project.类对象.util
+package com.study.scala.project.E3类对象.util
 
 //单例对象
 object SingletonObject {

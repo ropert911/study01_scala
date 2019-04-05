@@ -1,6 +1,6 @@
 package com.study.scala.project
 
-import com.study.scala.project.Model.Person
+import com.study.scala.project.E1Model.Person
 
 /**
   * Created by xq on 2019/3/5.

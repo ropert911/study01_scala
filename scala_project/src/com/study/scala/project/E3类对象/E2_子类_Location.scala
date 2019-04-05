@@ -1,4 +1,4 @@
-package com.study.scala.project.类对象
+package com.study.scala.project.E3类对象
 
 //子类示例
 //后面的参数是构建函数，后面是继承类

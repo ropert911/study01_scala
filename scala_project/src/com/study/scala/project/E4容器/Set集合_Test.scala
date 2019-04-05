@@ -1,4 +1,4 @@
-package com.study.scala.project.容器
+package com.study.scala.project.E4容器
 
 //默认情况下，Scala 使用的是不可变集合，如果你想使用可变集合，需要引用 scala.collection.mutable.Set 包。
 //默认引用 scala.collection.immutable.Set

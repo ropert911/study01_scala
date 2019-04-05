@@ -1,4 +1,4 @@
-package com.study.scala.project.Model
+package com.study.scala.project.E1Model
 
 /**
   * Created by xq on 2019/3/5.

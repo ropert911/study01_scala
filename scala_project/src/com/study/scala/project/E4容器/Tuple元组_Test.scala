@@ -1,4 +1,4 @@
-package com.study.scala.project.容器
+package com.study.scala.project.E4容器
 
 //与列表一样，元组也是不可变的，但与列表不同的是元组可以包含不同类型的元素
 object Tuple元组_Test {

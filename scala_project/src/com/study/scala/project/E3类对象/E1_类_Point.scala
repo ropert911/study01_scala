@@ -1,4 +1,4 @@
-package com.study.scala.project.类对象
+package com.study.scala.project.E3类对象
 
 class E1_类_Point(xc: Int, yc: Int) {
   //没有访问限定就是public

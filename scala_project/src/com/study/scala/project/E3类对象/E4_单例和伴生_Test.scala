@@ -1,6 +1,6 @@
-package com.study.scala.project.类对象
+package com.study.scala.project.E3类对象
 
-import com.study.scala.project.类对象.util.SingletonObject
+import com.study.scala.project.E3类对象.util.SingletonObject
 
 
 object E4_单例和伴生_Test {

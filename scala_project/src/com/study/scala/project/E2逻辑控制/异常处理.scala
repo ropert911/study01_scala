@@ -1,4 +1,4 @@
-package com.study.scala.project.逻辑控制
+package com.study.scala.project.E2逻辑控制
 
 /**
   * Created by xq on 2019/4/5.

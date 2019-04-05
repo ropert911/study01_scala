@@ -1,4 +1,4 @@
-package com.study.scala.project.类对象
+package com.study.scala.project.E3类对象
 
 
 object E5_Case类_Test {
