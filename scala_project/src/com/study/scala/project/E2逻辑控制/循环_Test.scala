@@ -21,18 +21,18 @@ object 循环_Test {
       a = a + 1;
     } while (a < 20)
 
-    // for ：下面的是一个范围，a从5到10
+    // for ：下面的是一个范围，a从 [5,10]
     for (a <- 5 to 10) {
       println("to: " + a);
     }
 
-    // for loop execution with a range
+    // for loop execution with a range [7,10)
     for (a <- 7 until 10) {
       println("until: " + a);
     }
 
     // for loop execution with a range
-    for (a <- 0 to (10,2)) {
+    for (a <- 0 to(10, 2)) {
       println("to step 2: " + a);
     }
 
@@ -41,13 +41,15 @@ object 循环_Test {
     }
 
     // for loop execution with a range
-    for (a <- 0 until (10,2)) {
+    for (a <- 0 until(10, 2)) {
       println("util step 2: " + a);
     }
 
     for (a <- 0 until 10 by 2) {
       println("util step 3: " + a);
     }
+
+    for (i <- 1 to 5 if i % 2 == 0) println(i)
 
 
     // for循环中使用由分号(;)分隔的多个范围，在这种情况下，循环将遍历给定范围所有可能的计算。

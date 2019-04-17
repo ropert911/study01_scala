@@ -13,6 +13,10 @@ object Array数组_Test {
     var myList1 = Array.range(10, 20, 2) //使用范围建数组：step 2
     var myList = Array(1.9, 2.9, 3.4, 3.5)
 
+    //初始化一个int数组
+    val intValueArr = Array(12,45,33)
+    val myStrArr = Array("BigData","Hadoop","Spark")  //一个字符串数组
+
     // 遍历数组
     for (x <- myList) {
       println(x)

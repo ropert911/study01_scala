@@ -13,6 +13,11 @@ object Iterator_Test {
       println(it.next())
     }
 
+    val iter = Iterator("Hadoop","Spark","Scala")
+    for (elem <- iter) {
+      println(elem)
+    }
+
     println("Maximum valued element " + ita.max)
     println("Minimum valued element " + itb.min)
 

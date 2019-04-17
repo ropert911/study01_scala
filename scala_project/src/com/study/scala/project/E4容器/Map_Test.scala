@@ -10,6 +10,10 @@ object Map_Test {
     val colors2 = Map("blue" -> "#0033FF", "yellow" -> "#FFFF00", "red" -> "#FF0000")
     val authorsToAge = Map("Raoul" -> 23, "Mario" -> 40, "Alan" -> 53)
 
+    for ((k,v) <- colors1){
+
+    }
+
     println("Keys in colors : " + colors1.keys)
     println("Values in colors : " + colors1.values)
     println("Check if colors is empty : " + colors1.isEmpty)
