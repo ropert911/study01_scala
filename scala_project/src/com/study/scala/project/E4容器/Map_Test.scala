@@ -33,6 +33,8 @@ object Map_Test {
     }
     colors1 - "abc" //返回一个新的 Map,删除key为"abc"的元素
 
+    val books = List("Hadoop","Hive","HDFS")
+    books flatMap (s => s.toList)   //List(H, a, o, o, p, H, i, v, e, H, D, F, S)
 
     // def --(xs: GTO[A]): Map[A, B]      返回一个新的 Map, 移除 xs 对象中对应的 key
     // def clear(): Unit      清空 Map

@@ -6,16 +6,13 @@ import java.util.Date
   * Created by xq on 2019/3/25.
   */
 object 函数 {
-  //这里函数f:参数int，返回String,
+  //高阶函数，参数接受函数做参数。 函数f:参数int，返回String,
   def apply(f: Int => String, v: Int) = f(v)
 
   //A 是泛型
   def layout[A](x: A) = "[" + x.toString() + "]"
 
   def main(args: Array[String]) {
-    //泛型具化
-    println(apply(layout, 10))
-
     //匿名函数
     val myNumFunc1: Int => Int = (num: Int) => num * 2
     println(myNumFunc1(3))
@@ -37,6 +34,9 @@ object 函数 {
     def addMore2(more: Int) = (x: Int) => x + more //闭包的正确语法
     val myFunc = addMore2(4)
     println(myFunc(10))
+
+    //高阶函数的使用
+    println(apply(layout, 10))
   }
 
   //指定参数默认值

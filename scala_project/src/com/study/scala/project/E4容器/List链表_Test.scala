@@ -115,4 +115,16 @@ object List链表_Test {
 
   def isJavaMentioned(tweet: String): Boolean = tweet.contains("Java")
 
+  //reduce操作
+  def myReduce(): Unit ={
+    val list = List(1,2,3,4,5)
+    list.reduceLeft(_ + _)
+    list.reduceRight(_ + _)
+  }
+
+  //fold和reduce有点像，但他提供了一个初始值
+  def myFold(): Unit ={
+    val list = List(1,2,3,4,5)
+    list.fold(10)(_*_)
+  }
 }
