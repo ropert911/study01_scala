@@ -6,6 +6,7 @@
 
 # Intellij project files
 *.iml
+output.txt
 .idea/
 
 # Others
