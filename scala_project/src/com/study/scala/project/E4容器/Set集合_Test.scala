@@ -51,6 +51,19 @@ object Set集合_Test {
     test3(num1) //转换类型
     test2(num1) //子集操作
     test4(num1, num2) //集合操作
+    stringSet()
+  }
+
+  def stringSet(): Unit ={
+    val site = Set("Runoob", "Google", "Baidu")
+    val nums: Set[Int] = Set()
+
+    site.add("aaa")
+    println( "第一网站是 : " + site.head )
+    println( "最后一个网站是 : " + site.tail )
+    println( "查看列表 site 是否为空 : " + site.isEmpty )
+    println( "查看 nums 是否为空 : " + nums.isEmpty )
+
   }
 
   def test2(num1: Set[Int]): Unit = {

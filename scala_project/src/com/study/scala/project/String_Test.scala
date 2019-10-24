@@ -16,5 +16,12 @@ object String_Test {
     println(s"1 + 1 = ${1 + 1}")                        //s插值器：允许使用变量
     val height = 1.9d
     println(f"$name%s is $height%2.2f meters tall")   //f插值器：格式化
+
+    val a = "3009"
+    val b = "3001"
+    val c = "3010"
+    if (b.compareTo(a)<=0 && c.compareTo(a)>=0){
+      println("aaaaaaaaaaa")
+    }
   }
 }
