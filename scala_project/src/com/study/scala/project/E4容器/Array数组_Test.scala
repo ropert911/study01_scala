@@ -17,12 +17,12 @@ object Array数组_Test {
     val intValueArr = Array(12,45,33)
     val myStrArr = Array("BigData","Hadoop","Spark")  //一个字符串数组
 
-    // 遍历数组
+    println("遍历数组")
     for (x <- myList) {
       println(x)
     }
 
-    // 求和
+    println("求和")
     var total = 0.0;
     for (i <- 0 to (myList.length - 1)) {
       total += myList(i);
@@ -43,13 +43,17 @@ object Array数组_Test {
   def test1(): Unit = {
     var myList1 = Array(1.9, 2.9, 3.4, 3.5)
     var myList2 = Array(8.9, 7.9, 0.4, 1.5)
+    Array.copy(myList1, 0, myList2, 1, 3)  //把myList1从0开始的数据，复制到myList2 的1-3的数据中
+    println("Array.copy======")
+    for (x <- myList1) {
+      println("-----------" + x)
+    }
 
 
     var myList3 = Array.apply[Double](2, 3, 4, 5);
     myList3 = Array.apply(2, 3, 4, 5); //创建一个T对象数组，其中T可以是：Unit，Double，Float，Long，Int，Char，Short，Byte，Boolean
     var myList4 = concat(myList1, myList2, myList1) //将所有数组连接成一个数组
     var myList5 = Array(9.0, 9.0, 9.0, 9.0, 9.0);
-    Array.copy(myList4, 0, myList5, 1, 3) //将一个数组复制到另一个
     var myList6 = Array.empty[Int]; //返回一个空数组
     var myList7 = Array.iterate(0, 3)(a => a + 1) //使用迭代生成
     for (x <- myList7) {
